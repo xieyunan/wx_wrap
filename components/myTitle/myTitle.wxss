@@ -1,0 +1,7 @@
+/* components/myTitle.wxss */
+.top{display: flex;align-items: center;padding: 10rpx;}
+.logo{flex: 7;}
+.search_icon{flex: 1;display: flex;justify-content: center;
+align-items: center;}
+.user_icon{flex: 2;display: flex;justify-content: center;}
+.down{flex: 3;font-size: 30rpx;background: pink;color: #fff;display: flex;justify-content: center;align-items: center;border-radius: 10rpx;padding: 5px 0;}

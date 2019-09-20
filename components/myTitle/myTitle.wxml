@@ -1,0 +1,16 @@
+<!--components/myTitle.wxml-->
+<view class="top">
+    <navigator class="logo">
+        <image style="width: 140rpx;height:60rpx;" src="../../assets/img/bilibili.png" />
+    </navigator>
+    <view class="search_icon">
+        <image style="width: 60rpx;height:44rpx;" src="../../assets/img/search.png" />
+    </view>
+     <view class="user_icon">
+        <image style="width: 54rpx;height:60rpx;" src="../../assets/img/my.png" class="avatar"/>
+     </view>
+      <view class="down">
+          <text>下载App</text>
+      </view>       
+</view>
+  

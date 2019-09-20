@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<view>
+  <myTitle>头部</myTitle>
+  <view class="nav_wrap">
+    <scroll-view class="nav" scroll-x>
+      <view bindtap="activeNav" data-index="{{index}}" class="nav_item {{index===currentIndex?'active':''}}" wx:for="{{navList}}" wx:key="{{index}}">
+          {{item.text}}
+      </view>
+    </scroll-view>
+  </view>
+  <view  class="slides">
+    <swiper autoplay="true" indicator-dots="true" interval="3000" circular="true">
+      <swiper-item wx:for="{{swipterList}}" wx:key="{{index}}">
+        <navigator class="">
+          <image class="" src="{{item.image}}" />
+        </navigator>
+      </swiper-item>
+    </swiper>
+  </view>
+  <view>
+    <navigator url="../detail/index?id=123">
+      <image class="" src="../../assets/img/aaa.jpeg" />
+        
+    </navigator>
+  </view>
+    
+   
+</view>
+  

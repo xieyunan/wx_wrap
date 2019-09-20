@@ -1,0 +1,31 @@
+<view>
+    <view>
+        <myTitle></myTitle>
+    </view>
+     <button bindtap="ts01">消息提示框01</button>
+     <button bindtap="ts02">消息提示框02</button>
+    <view>
+        showloading显示提示框
+    </view>
+    <button bindtap="tsk01">显示提示框</button>
+    <view>
+        隐藏提示框
+    </view>
+    <button bindtap="yck01">隐藏提示框</button>  
+    <view>
+       <button bindtap="cd01">操作菜单01</button> 
+       <button bindtap="cd02">操作菜单02</button> 
+    </view>
+    <view>
+        wx.getSystemInfo 获取系统信息
+    </view>
+    <button bindtap="tz01">
+        跳转tabBar页面
+    </button>
+    <navigator url="url" open-type="switchTab">
+        
+    </navigator>
+      
+      
+</view>
+  
